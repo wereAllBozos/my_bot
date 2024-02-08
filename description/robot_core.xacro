@@ -14,6 +14,10 @@
     <material name="blue" >
 		<color rgba="0.2 0.2 1 1" />
 	</material>
+ 
+    <material name="red" >
+		<color rgba="1 0 0 1" />
+	</material>
 
     <material name="black" >
 		<color rgba="0 0 0 1" />
@@ -136,7 +140,7 @@
             <origin xyz ="0 0 0" rpy = "0 0 0"/>
        </xacro:inertial_sphere>   
     </link>
-ros2 run teleop_twist_keyboard  teleop_twist_keyboard
+
     <gazebo reference="caster_wheel">
         <material>Gazebo/Black</material>
         <mu1 value="0.001"/>
